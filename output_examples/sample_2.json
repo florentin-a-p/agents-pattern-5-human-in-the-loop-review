@@ -1,0 +1,46 @@
+{
+  "sample_mode": true,
+  "status": "completed",
+  "detection": {
+    "category": "harassment",
+    "confidence": 0.81,
+    "risk_score": 0.55,
+    "signals": ["worthless", "loser"],
+    "rationale": "Matched sample-mode signals associated with harassment.",
+    "context_feedback_applied": "Conversation context suggests possible joking or familiar banter."
+  },
+  "context_analysis": {
+    "context_risk_modifier": -0.18,
+    "sarcasm_or_joking_likely": true,
+    "relationship_context": "friends and teammates",
+    "language_context": "en",
+    "locale_context": "en-US",
+    "community_context": "sports_chat",
+    "needs_more_context": false,
+    "feedback_to_detection": "Conversation context suggests possible joking or familiar banter.",
+    "rationale": "Reviewed 2 prior message(s), relationship, language, locale, and community type."
+  },
+  "policy": {
+    "decision": "warn",
+    "severity": "medium",
+    "confidence": 0.72,
+    "needs_more_context": false,
+    "context_question": "",
+    "rationale": "Policy decision based on harassment with adjusted risk 0.55.",
+    "user_message": "Your content is live with a warning because it may approach our safety limits.",
+    "action": {
+      "content_id": "post-2002",
+      "user_id": "user-84",
+      "action_type": "warn",
+      "user_message": "Your content is live with a warning because it may approach our safety limits."
+    }
+  },
+  "final_action": {
+    "content_id": "post-2002",
+    "user_id": "user-84",
+    "action_type": "warn",
+    "user_message": "Your content is live with a warning because it may approach our safety limits."
+  },
+  "iterations_used": 1,
+  "max_iterations": 2
+}

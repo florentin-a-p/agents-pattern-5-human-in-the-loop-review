@@ -1,0 +1,18 @@
+{
+  "content_id": "post-2003",
+  "user_id": "user-126",
+  "content": "Please send crypto to this wallet for a guaranteed return. Do not tell your bank.",
+  "conversation_history": [
+    {
+      "role": "user-126",
+      "content": "I can double your money today."
+    }
+  ],
+  "user_relationship": "strangers in direct messages",
+  "detected_language": "en",
+  "locale": "en-US",
+  "community_type": "direct_message",
+  "human_review_approved": true,
+  "human_rejection_reason": "Moderator wants the workflow to reconsider whether this should be suspension rather than warning.",
+  "max_iterations": 5
+}

@@ -1,0 +1,18 @@
+{
+  "content_id": "post-many-loops",
+  "user_id": "user-many-loops",
+  "content": "You are an idiot and should shut up.",
+  "conversation_history": [
+    {
+      "role": "user-many-loops",
+      "content": "This person keeps derailing the thread."
+    }
+  ],
+  "user_relationship": "strangers in a public discussion",
+  "detected_language": "en",
+  "locale": "en-US",
+  "community_type": "public_forum",
+  "human_review_approved": false,
+  "human_rejection_reason": "Moderator rejected the recommendation and wants the agents to keep checking context before final action.",
+  "max_iterations": 10
+}

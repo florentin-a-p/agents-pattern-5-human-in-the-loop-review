@@ -1,0 +1,46 @@
+{
+  "sample_mode": true,
+  "status": "completed",
+  "detection": {
+    "category": "safe",
+    "confidence": 0.82,
+    "risk_score": 0.05,
+    "signals": ["no sample-mode risk terms matched"],
+    "rationale": "No configured harmful-content signals were detected.",
+    "context_feedback_applied": "No strong contextual adjustment."
+  },
+  "context_analysis": {
+    "context_risk_modifier": 0.0,
+    "sarcasm_or_joking_likely": false,
+    "relationship_context": "unknown",
+    "language_context": "en",
+    "locale_context": "en-US",
+    "community_context": "twitter",
+    "needs_more_context": false,
+    "feedback_to_detection": "No strong contextual adjustment.",
+    "rationale": "Reviewed 0 prior message(s), relationship, language, locale, and community type."
+  },
+  "policy": {
+    "decision": "allow",
+    "severity": "none",
+    "confidence": 0.82,
+    "needs_more_context": false,
+    "context_question": "",
+    "rationale": "Policy decision based on safe with adjusted risk 0.05.",
+    "user_message": "Your content is live.",
+    "action": {
+      "content_id": "post-2001",
+      "user_id": "user-42",
+      "action_type": "allow",
+      "user_message": "Your content is live."
+    }
+  },
+  "final_action": {
+    "content_id": "post-2001",
+    "user_id": "user-42",
+    "action_type": "allow",
+    "user_message": "Your content is live."
+  },
+  "iterations_used": 1,
+  "max_iterations": 4
+}

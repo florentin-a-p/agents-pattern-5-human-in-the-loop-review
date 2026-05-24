@@ -1,0 +1,15 @@
+{
+  "content_id": "post-2002",
+  "user_id": "user-84",
+  "content": "You are a worthless loser lol, just kidding after that match.",
+  "conversation_history": [
+    {"role": "user-84", "content": "Great game, I cannot believe you missed that shot."},
+    {"role": "user-91", "content": "I know, roast me."}
+  ],
+  "user_relationship": "friends and teammates",
+  "detected_language": "en",
+  "locale": "en-US",
+  "community_type": "sports_chat",
+  "human_review_approved": true,
+  "max_iterations": 2
+}

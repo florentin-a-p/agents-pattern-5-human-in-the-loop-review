@@ -1,0 +1,46 @@
+{
+  "sample_mode": true,
+  "status": "completed",
+  "detection": {
+    "category": "scam",
+    "confidence": 0.81,
+    "risk_score": 0.81,
+    "signals": ["guaranteed return", "send crypto"],
+    "rationale": "Matched sample-mode signals associated with scam.",
+    "context_feedback_applied": "Context does not reduce severity for high-risk category."
+  },
+  "context_analysis": {
+    "context_risk_modifier": 0.08,
+    "sarcasm_or_joking_likely": false,
+    "relationship_context": "strangers in direct messages",
+    "language_context": "en",
+    "locale_context": "en-US",
+    "community_context": "direct_message",
+    "needs_more_context": false,
+    "feedback_to_detection": "Context does not reduce severity for high-risk category.",
+    "rationale": "Reviewed 1 prior message(s), relationship, language, locale, and community type."
+  },
+  "policy": {
+    "decision": "suspend",
+    "severity": "high",
+    "confidence": 0.77,
+    "needs_more_context": false,
+    "context_question": "",
+    "rationale": "Policy decision based on scam with adjusted risk 0.81.",
+    "user_message": "Your account action is under restriction due to a serious policy violation.",
+    "action": {
+      "content_id": "post-2003",
+      "user_id": "user-126",
+      "action_type": "suspend",
+      "user_message": "Your account action is under restriction due to a serious policy violation."
+    }
+  },
+  "final_action": {
+    "content_id": "post-2003",
+    "user_id": "user-126",
+    "action_type": "suspend",
+    "user_message": "Your account action is under restriction due to a serious policy violation."
+  },
+  "iterations_used": 1,
+  "max_iterations": 5
+}

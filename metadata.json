@@ -1,0 +1,32 @@
+{
+  "name": "human-in-the-loop-harm-detection-agents",
+  "version": "1.0.0",
+  "use_case_id": "12",
+  "description": "Three-agent harmful-content moderation workflow with context and human review loops.",
+  "entrypoint": "python run.py",
+  "endpoint": "POST /run",
+  "agents": [
+    {
+      "name": "DetectionAgent",
+      "role": "Detects possible harmful content and assigns initial category, confidence, and risk score."
+    },
+    {
+      "name": "ContextAnalysisAgent",
+      "role": "Analyzes history, sarcasm, relationships, detected language, locale, and community type, then feeds context back to DetectionAgent or PolicyAgent."
+    },
+    {
+      "name": "PolicyAgent",
+      "role": "Decides allow, warn, remove, or suspend, and can request more context before final recommendation."
+    }
+  ],
+  "tools_used": [
+    "fastapi",
+    "openai-sdk",
+    "compass-api"
+  ],
+  "data_sources": [
+    "runtime user input",
+    "sample input files when SAMPLE_MODE=true"
+  ],
+  "output_type": "json"
+}
